@@ -1,0 +1,24 @@
+{
+  "schema": 1,
+  "updatedAt": "2026-11-08",
+  "device": {
+    "hotVersion": "1.0.11"
+  },
+  "resolve": {
+    "qualitiesPath": "/api/v1/app/client/resolve/qualities",
+    "exchangePath": "/api/v1/app/client/resolve/exchange",
+    "signPath": "/api/v1/app/client/resolve/sign",
+    "adConfigPath": "/api/v1/app/client/ad/getConfig",
+    "adClaimPath": "/api/v1/app/client/ad/claimReward",
+    "adSlot": "player_pre_roll",
+    "getApiUrlAction": "get_api_url",
+    "decryptResponseAction": "decrypt_response",
+    "preferFreeQuality": true,
+    "useAdToken": true,
+    "tokenRefreshFallback": true,
+    "anonymousFallback": true,
+    "gatewayRotate": true,
+    "parseHeaders": true,
+    "retryDelayMs": 900
+  }
+}
